@@ -132,6 +132,9 @@ async def mirror_mega(client, message):
                     await client.send_message(chat_id, "🔃Timed Out! Tasked Has Been Cancelled.")
                     return
             await ask.request.delete()
+            if not is_mega_link(mega_link):
+                await client.send_message(chat_id, "❌This is not a mega link.")
+                return
     LOGGER.info(f"Mega Link Found: {mega_link}")
     staus_message = await client.send_message(chat_id=chat_id,
                                 text=f"🔶Please Wait....", reply_to_message_id=message.id)

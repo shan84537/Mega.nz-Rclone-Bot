@@ -20,9 +20,6 @@ async def upload_to_drive(client, staus_message, process_id, process_dir, log_di
                                                 f"--config={rclone_config_loc}",
                                                 f'{str(process_dir)}',
                                                 f"{drive_name}:{base}/",
-                                                "-f",
-                                                "- *.!qB",
-                                                "--buffer-size=1M",
                                                 "-P"]
                 process = await create_subprocess_exec(
                                                                                                 *command,
