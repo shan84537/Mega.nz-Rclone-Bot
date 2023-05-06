@@ -14,7 +14,7 @@ You can mirror `mega.nz` file or folder to your `drive` with this bot. This bot 
 
 
 
-<div align="center"><a href="https://colab.research.google.com/github/sahilgit55/Mega.nz-Rclone-Bot/blob/master/Mega_nz_Rclone_Bot.ipynb" target="_parent"><img src="https://cdn.wapka.io/009gs8/c939d8018de98ac2b2ec080d35d7a266/colab-badge_300x50.png" alt="Deploy On Google Colab"/></a></div>
+<div align="center"><a href="https://colab.research.google.com/github/sahilgit55/Mega.nz-Rclone-Bot/blob/master/Mega_nz_Rclone_Bot.ipynb" target="_parent"><img src="https://cdn.wapka.io/009gsa/12f8440c08aee5384aad6e8050e05425/colab_deploy.png" alt="Deploy On Google Colab"/></a></div>
 <br>
 <hr>
 <div align="center"><h2><b>⚡How To Start Bot</b></h2></div>
