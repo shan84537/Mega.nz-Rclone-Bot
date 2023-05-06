@@ -86,6 +86,7 @@ def progress_status(proc):
         status = f"**Name**: {proc.name()}\n"\
                         f'{get_progress_bar_from_percentage(proc.percentage)} {proc.percentage}%\n'\
                         f"**Uploaded**: {proc.uploaded} of {str(proc.size()) if proc.size() else '0 MB'}\n"\
+                        f"**Uploaded Files**: {proc.uploaded_files}\n"\
                         f'**Speed**: {proc.speed} | **ETA**: {proc.eta}\n'\
                         f"`/cancel {proc.process_id}`"
                         

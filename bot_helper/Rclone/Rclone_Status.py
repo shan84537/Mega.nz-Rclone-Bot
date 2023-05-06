@@ -24,6 +24,7 @@ class RcloneStatus:
         self.base = base
         self.drive_name = drive_name
         self.uploaded = 0
+        self.uploaded_files = "-/-"
         self.percentage = 0
         self.speed = '0 MB/s'
         self.eta = '-/-'
@@ -64,6 +65,10 @@ class RcloneStatus:
                                         progress = datam[0].replace("Transferred:", "").strip().split(",")
                                         dwdata = progress[0].strip().split('/')
                                         self.uploaded, self._size, self.percentage, self.speed, self.eta = dwdata[0].strip(), dwdata[1].strip(), progress[1].strip("% "), progress[2], progress[3].strip().replace('ETA', '').strip()
+                                        try:
+                                                self.uploaded_files = findall("Transferred:.*%.*", line)[1].replace("Transferred:", "").strip().split(",")[0]
+                                        except Exception as e:
+                                                LOGGER.info(f'❌Error Getting Rclone Uploaded Files: {str(e)}')
                         except Exception as e:
                                 LOGGER.info(f'❌Error Getting Rclone Progress: {str(e)}')
                         async with aio_open(self.log_file, "a+", encoding="utf-8") as f:
