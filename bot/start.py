@@ -16,7 +16,7 @@ from bot_helper.Rclone.Rclone_Uploader import upload_to_drive
 LOGGER = Config.LOGGER
 DRIVE_BASE_DIR = Config.DRIVE_BASE_DIR
 rclone_config_loc = './rclone.conf'
-drive_name = "kindle"
+drive_name = Config.DRIVE_NAME
 
 
 ################Functions####################
