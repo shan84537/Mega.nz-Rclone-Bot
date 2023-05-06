@@ -19,11 +19,11 @@ You can mirror `mega.nz` file or folder to your `drive` with this bot. This bot 
 <hr>
 <div align="center"><h2><b>⚡How To Start Bot</b></h2></div>
 <p><b>To start the bot put your <code>config.env</code> file direct link and click on play icon as shown in image below.</b></p>
-<img src="https://sahil66.000webhostapp.com/1_st.jpg" alt="1">
+<center><img src="https://sahil66.000webhostapp.com/1_st.jpg" alt="1"></center>
 <br>
 <div align="center"><h2><b>🔒How To Bypass Mega Bandwidth Limit</b></h2></div>
 <p><b>After Mega Bandwidth Limit Click On <code>Disconnect and delete runtime</code> and start the bot again.</b></p>
-<img src="https://sahil66.000webhostapp.com/2_nd.jpg" alt="1">
+<center><img src="https://sahil66.000webhostapp.com/2_nd.jpg" alt="1"></center>
 
 <hr>
 
