@@ -37,6 +37,7 @@ def get_drive_name(file):
             if d:
                 accounts.append(str(d))
         if len(accounts):
+            LOGGER.info(f"🔶Selecting {accounts[0]} As Upload Drive")
             return accounts[0]
         else:
             LOGGER.info(f"❌No Drive Found IN Rclone Config")
