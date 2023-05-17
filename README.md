@@ -29,7 +29,7 @@ You can mirror `mega.nz` file or folder to your `drive` with this bot. This bot 
 
 <div align="center"><h2><b>🔧Configuration</b></h2></div>
 
-**To configure this bot fill the variables in [sample_config.env](./sample_config.env)**
+**To configure this bot fill the variables in [sample_config.env](./sample_config.env) and rename it to config.env**
 
 <hr>
 
